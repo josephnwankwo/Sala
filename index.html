@@ -33,8 +33,8 @@
   </head>
   <body>
     <header class="header">
-      <a href="index.html">
-        <p class="logo">Sala</p>
+      <a href="index.html" class="header-logo">
+        <p class="logo-text">Sala</p>
         <ion-icon name="arrow-forward-outline" class="logo-icon"></ion-icon>
       </a>
       <nav class="main-nav">
@@ -76,16 +76,32 @@
         </div>
       </section>
 
-      <section class="section-design_previews">
+      <section class="section-design--previews">
         <div class="container">
           <p class="sub-heading">Amazing projects</p>
           <h2 class="heading-secondary">Case studies.</h2>
         </div>
         <div class="container grid grid--2-cols">
-          <div class="foot">hello</div>
-          <div class="foot">hello</div>
-          <div class="foot">hello</div>
-          <div class="foot">hello</div>
+          <div class="foot">
+            <img src="" alt="Sala app" />
+            <div class="design--previews-subtext">Mockup</div>
+            <div class="design--previews-text">Sala App</div>
+          </div>
+          <div class="foot">
+            <img src="" alt="Food Packaging" />
+            <div class="design--previews-subtext">Mockup</div>
+            <div class="design--previews-text">Food Packaging</div>
+          </div>
+          <div class="foot">
+            <img src="" alt="Premade Scenes" />
+            <div class="design--previews-subtext">Mockup</div>
+            <div class="design--previews-text">Packs Premade Scenes</div>
+          </div>
+          <div class="foot">
+            <img src="" alt="Calender Design" />
+            <div class="design--previews-subtext">Branding</div>
+            <div class="design--previews-text">Calender Design</div>
+          </div>
         </div>
         <div class="container view-all">
           <a href="#" class="design-link">View all work</a>
@@ -101,15 +117,41 @@
         </div>
       </section>
 
-      <section class="section-testimonials">
+      <section class="section-team">
         <div class="container">
           <h3 class="heading-tertiary">Meet our team</h3>
           <p class="sub-text">A creative agency like no other</p>
         </div>
         <div class="container grid grid--3-cols">
-          <div class="foot">hello</div>
-          <div class="foot">hello</div>
-          <div class="foot">hello</div>
+          <figure class="team">
+            <img
+              src="/asset/images/customers/customer-1.jpg"
+              alt="photo of customer"
+              class="team-img"
+            />
+            <p class="team-name">Stephane Gibert</p>
+            <p class="team-position">Co-Founder</p>
+          </figure>
+
+          <figure class="team">
+            <img
+              src="/asset/images/customers/customer-2.jpg"
+              alt="photo of customer"
+              class="team-img"
+            />
+            <p class="team-name">Miriam Jesus</p>
+            <p class="team-position">UX/ UI Designer</p>
+          </figure>
+
+          <figure class="team">
+            <img
+              src="/asset/images/customers/customer-3.jpg"
+              alt="photo of customer"
+              class="team-img"
+            />
+            <p class="team-name">John Doe</p>
+            <p class="team-position">Head of Marketing</p>
+          </figure>
         </div>
         <div class="container">
           <p class="sub-heading">Start your project with us</p>
@@ -121,18 +163,65 @@
 
     <footer class="footer">
       <div class="container grid grid--5-cols">
-        <div class="foot">hello</div>
-        <div class="foot">hello</div>
-        <div class="foot">hello</div>
-        <div class="foot">hello</div>
-        <div class="foot">hello</div>
+        <div class="footer-info">
+          <a href="index.html" class="footer-logo">
+            <p class="logo-text">Sala</p>
+            <ion-icon name="arrow-forward-outline" class="logo-icon"></ion-icon>
+          </a>
+          <p class="footer-text">
+            A amazing wordPress theme designed specifically for startup, apps,
+            Saas, and IT services.
+          </p>
+        </div>
+        <nav class="nav-col">
+          <p class="footer-heading">Company</p>
+          <ul class="footer-nav">
+            <li><a href="#" class="footer-link">About us</a></li>
+            <li><a href="#" class="footer-link">Blog</a></li>
+            <li><a href="#" class="footer-link">Career</a></li>
+            <li><a href="#" class="footer-link">Contact</a></li>
+          </ul>
+        </nav>
+        <nav class="nav-col">
+          <p class="footer-heading">Resource</p>
+          <ul class="footer-nav">
+            <li><a href="#" class="footer-link">Downloads</a></li>
+            <li><a href="#" class="footer-link">Help Center</a></li>
+            <li><a href="#" class="footer-link">Partners</a></li>
+            <li><a href="#" class="footer-link">Press Kit</a></li>
+          </ul>
+        </nav>
+        <nav class="nav-col">
+          <p class="footer-heading">Socail Media</p>
+          <ul class="footer-nav">
+            <li><a href="#" class="footer-link">Facebook</a></li>
+            <li><a href="#" class="footer-link">Twitter</a></li>
+            <li><a href="#" class="footer-link">Instagram</a></li>
+            <li><a href="#" class="footer-link">Linkedin</a></li>
+          </ul>
+        </nav>
+        <div class="footer-newsletter">
+          <p class="footer-heading">Newsletter</p>
+          <p class="footer-text">
+            Subscribe our newsletter and stay up to date about the company
+          </p>
+          <form action="#" class="footer-form--subscription">
+            <input
+              type="email"
+              id="email"
+              placeholder="me@example.com"
+              required
+            />
+            <button class="btn">Subscribe</button>
+          </form>
+        </div>
       </div>
       <div class="container">
         <p class="copyright">&copy; 2023 UX Beast. All right reserved</p>
-        <p class="terms-privacy">
-            <p>Terms</p>
-            <p>Privacy</p>
-        </p>
+        <div class="terms-privacy">
+          <p>Terms</p>
+          <p>Privacy</p>
+        </div>
       </div>
     </footer>
   </body>
