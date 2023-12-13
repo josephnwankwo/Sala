@@ -1,8 +1,26 @@
 .header {
   height: 9.6rem;
-  padding: 0 5.6rem;
+  padding: 0 8rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: yellowgreen;
+}
+
+.header-logo {
+  text-decoration: none;
+  display: flex;
+  color: inherit;
+  gap: 0.2rem;
+}
+
+.logo-text {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.logo-icon {
+  color: $color-blue;
+  font-size: 1.6rem;
+  font-weight: 600;
+  transform: rotate(-40deg);
 }
