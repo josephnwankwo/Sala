@@ -2,7 +2,7 @@
   border-top: 1.5px solid #eee;
 
   .footer-section {
-    padding: 6.4rem 0;
+    padding-block: 6.4rem;
   }
 
   .footer-logo {
@@ -53,7 +53,7 @@
   }
 
   .footer--copyright {
-    padding: 3.2rem 0;
+    padding-block: 3.2rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
