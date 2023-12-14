@@ -1,10 +1,6 @@
 .section-hero {
   padding: 4.8rem 0 9.6rem 0;
 
-  .hero-text-box {
-    text-align: center;
-  }
-
   .heading-primary span {
     text-decoration: underline 4px solid $color-blue;
   }
@@ -44,20 +40,124 @@
 
 .section-featured {
   padding: 4.8rem 0;
-  background-color: orangered;
+  position: relative;
+
+  .heading-featured-in {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 2.4rem;
+    color: $colo-gray--1;
+  }
 }
 
 .section-design--previews {
   padding: 9.6rem 0;
-  background-color: blue;
+
+  .design--previews-img {
+    width: 100%;
+    height: 40rem;
+    object-fit: cover;
+    margin-bottom: 0.8rem;
+  }
+
+  .design--previews-text {
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-top: 0.4rem;
+  }
+
+  .view-all {
+    padding-block: 3.2rem;
+    color: $colo-gray--3;
+  }
+
+  .design-link:link,
+  .design-link:visited {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: inherit;
+    font-weight: 500;
+    font-size: 1.4rem;
+    border: 1px solid $colo-gray--3;
+    padding: 0.4rem 0.8rem;
+    border-radius: 2px;
+    transition: all 0.4s;
+  }
+
+  .design-link:hover,
+  .design-link:active {
+    background-color: $color-black;
+    color: $color-white;
+  }
 }
 
 .section-cta {
   padding: 4.8rem 0 9.6rem 0;
-  background-color: pink;
+  color: $color-white;
+
+  .cta-background {
+    height: 40rem;
+    background-image: linear-gradient(rgba($color-blue--bac, 0.7)),
+      url(/asset/images/cta-background.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+
+  .sub-background {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    :nth-child(1) {
+      width: 60%;
+    }
+  }
+
+  .cta-btn:link,
+  .cta-btn:visited {
+    text-decoration: none;
+    color: inherit;
+    font-size: 1.2rem;
+    transition: all 0.4s;
+  }
+
+  .cta-btn:hover,
+  .cta-btn:active {
+    text-decoration: underline;
+  }
 }
 
 .section-team {
   padding: 9.6rem 0;
-  background-color: yellow;
+
+  .section-team--headtext {
+    margin-bottom: 4.8rem;
+  }
+
+  .section-team--heads {
+    margin-bottom: 12.8rem;
+  }
+
+  .team {
+    text-align: center;
+  }
+
+  .team-img {
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 1.6rem;
+  }
+
+  .team-name {
+    font-size: 1.4rem;
+    font-weight: 600;
+  }
+
+  .chat:link,
+  .chat:visited {
+    text-decoration: none;
+    font-size: 1.4rem;
+  }
 }
