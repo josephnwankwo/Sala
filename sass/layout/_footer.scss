@@ -1,5 +1,69 @@
 .footer {
-  border-top: 1px solid #eee;
-  padding: 12.8em 0;
-  background-color: green;
+  border-top: 1.5px solid #eee;
+
+  .footer-section {
+    padding: 6.4rem 0;
+  }
+
+  .footer-logo {
+    margin-bottom: 1.2rem;
+  }
+
+  .footer-heading {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 1.2rem;
+  }
+
+  .footer-nav {
+    list-style: none;
+
+    :not(:last-child) {
+      margin-bottom: 0.8rem;
+    }
+  }
+
+  .footer-link:link,
+  .footer-link:visited {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: inherit;
+    font-weight: 500;
+  }
+
+  .footer-link:hover,
+  .footer-link:active {
+    color: $colo-gray--1;
+  }
+
+  .footer-form {
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    padding-top: 1.2rem;
+    gap: 0.2rem;
+  }
+
+  .footer-form input {
+    border: none;
+    background-color: $color-white-2;
+    padding: 0.8rem 1.6rem;
+    border-radius: 3px;
+    box-shadow: 0 2px 4px rgba($color-black, 0.1);
+  }
+
+  .footer--copyright {
+    padding: 3.2rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1rem;
+    font-weight: 500;
+    border-top: 1.5px solid #eee;
+  }
+
+  .terms-privacy {
+    display: flex;
+    gap: 1.2rem;
+  }
 }

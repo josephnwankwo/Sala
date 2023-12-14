@@ -71,25 +71,6 @@
     padding-block: 3.2rem;
     color: $colo-gray--3;
   }
-
-  .design-link:link,
-  .design-link:visited {
-    text-decoration: none;
-    text-transform: capitalize;
-    color: inherit;
-    font-weight: 500;
-    font-size: 1.4rem;
-    border: 1px solid $colo-gray--3;
-    padding: 0.4rem 0.8rem;
-    border-radius: 2px;
-    transition: all 0.4s;
-  }
-
-  .design-link:hover,
-  .design-link:active {
-    background-color: $color-black;
-    color: $color-white;
-  }
 }
 
 .section-cta {
@@ -125,6 +106,7 @@
 
   .cta-btn:hover,
   .cta-btn:active {
+    color: $color-blue--2;
     text-decoration: underline;
   }
 }
@@ -153,11 +135,5 @@
   .team-name {
     font-size: 1.4rem;
     font-weight: 600;
-  }
-
-  .chat:link,
-  .chat:visited {
-    text-decoration: none;
-    font-size: 1.4rem;
   }
 }

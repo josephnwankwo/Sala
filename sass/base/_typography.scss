@@ -16,19 +16,13 @@ bold: 700
 -Spacing system (px) 
 2 / 4/ 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
 
---- 03 LETTER SPACING 
--0.5px
-0.75px
-
 */
-
-// font-family: 'Lora', serif;
 
 .sub-heading {
   text-transform: uppercase;
   font-size: 1.4rem;
   font-weight: 500;
-  margin-bottom: 2.4rem;
+  margin-bottom: 1.6rem;
   color: $colo-gray--2;
 }
 
@@ -54,7 +48,62 @@ bold: 700
 
 .paragraph {
   font-size: 1.2rem;
-  line-height: 1.2;
+  line-height: 1.4;
   font-weight: 400;
   color: $colo-gray--2;
+}
+
+.btn:link,
+.btn:visited {
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.4rem;
+  font-weight: 500;
+  border-radius: 3px;
+  transition: all 0.4s;
+  text-transform: capitalize;
+}
+
+.btn--outline:link,
+.btn--outline:visited {
+  color: inherit;
+  border: 1px solid $colo-gray--3;
+  padding: 0.4rem 0.8rem;
+}
+
+.btn--outline:hover,
+.btn--outline:active {
+  background-color: $color-black;
+  color: $color-white;
+  box-shadow: 0 2px 4px rgba($color-black, 0.2);
+}
+
+.btn--blue:link,
+.btn--blue:visited {
+  background-color: $color-blue;
+  color: $color-white;
+  padding: 0.8rem 1.6rem;
+}
+
+.btn--blue:hover,
+.btn--blue:active {
+  background-color: $color-white;
+  box-shadow: inset 0 0 0 3px $color-blue--2;
+  color: inherit;
+}
+
+.btn--form {
+  background-color: $color-blue;
+  color: $color-white;
+  border: none;
+  padding: 0.8rem 1.6rem;
+  border-radius: 3px;
+  transition: all 0.4s;
+}
+
+.btn--form:hover,
+.btn--form:active {
+  background-color: $color-white;
+  box-shadow: inset 0 0 0 3px $color-blue--2;
+  color: inherit;
 }
