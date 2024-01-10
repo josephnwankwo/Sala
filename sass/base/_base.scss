@@ -11,10 +11,15 @@ html {
   font-size: 62.5%; // 1rem = 10px
   scroll-behavior: smooth;
 
-  // @include respond(tablets) {
-  //   // 1rem = 9px, 9*100/16
-  //   font-size: 56.25%;
-  // }
+  @include respond(smaller-desktops) {
+    // 1rem = 9px, 9*100/16
+    font-size: 56.25%;
+  }
+
+  @include respond(landscape-tablets) {
+    // 1rem = 8px, 8*100/16
+    font-size: 50%;
+  }
 }
 
 body,

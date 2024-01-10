@@ -5,11 +5,32 @@
   transform: translate(-50%, -50%);
 }
 
-// @mixin respond($breakpoint) {
-//   @if $breakpoint == tablets {
-//     // Below 944px
-//     @media only screen and (max-width: 59em) {
-//       @content;
-//     }
-//   }
-// }
+@mixin respond($breakpoint) {
+  @if $breakpoint == smaller-desktops {
+    // Below 1220px
+    @media only screen and (max-width: 76em) {
+      @content;
+    }
+  }
+
+  @if $breakpoint == landscape-tablets {
+    // Below 1120px
+    @media only screen and (max-width: 70em) {
+      @content;
+    }
+  }
+
+  @if $breakpoint == tablets {
+    // Below 1018px
+    @media only screen and (max-width: 63em) {
+      @content;
+    }
+  }
+
+  @if $breakpoint == smaller-tablets {
+    // Below 954px
+    @media only screen and (max-width: 59em) {
+      @content;
+    }
+  }
+}

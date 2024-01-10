@@ -1,5 +1,5 @@
 .container {
-  max-width: 1300rem;
+  max-width: 140rem;
   margin: 0 auto;
   padding: 0 3.2rem;
 }
@@ -36,12 +36,20 @@
   grid-template-rows: repeat(2, 1fr);
 
   gap: 4rem;
+
+  @include respond(smaller-tablets) {
+    gap: 3.2rem;
+  }
 }
 
 .grid--3-cols {
   grid-template-columns: repeat(3, 1fr);
 
   gap: 8.5rem;
+
+  @include respond(smaller-tablets) {
+    gap: 4.8rem;
+  }
 }
 
 .grid--4-cols {
@@ -52,4 +60,8 @@
   grid-template-columns: 1.5fr 1fr 1fr 1fr 1.5fr;
 
   gap: 5rem;
+
+  @include respond(smaller-tablets) {
+    grid-template-columns: repeat(6, 1fr);
+  }
 }
