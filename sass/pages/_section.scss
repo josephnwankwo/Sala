@@ -90,6 +90,7 @@
 
   @include respond(phones) {
     padding: 3.2rem 0 8rem 0;
+    text-align: center;
   }
 
   .cta-background {
@@ -108,6 +109,10 @@
 
     :nth-child(1) {
       width: 60%;
+
+      @include respond(phones) {
+        width: 100%;
+      }
     }
   }
 
