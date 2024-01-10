@@ -28,6 +28,10 @@ bold: 700
   @include respond(smaller-tablets) {
     font-size: 1.6rem;
   }
+
+  @include respond(mini-tablets) {
+    font-size: 1.4rem;
+  }
 }
 
 .heading-primary {
@@ -40,6 +44,16 @@ bold: 700
   @include respond(smaller-tablets) {
     font-size: 5.2rem;
   }
+
+  @include respond(mini-tablets) {
+    font-size: 4.8rem;
+    padding-inline: 15rem;
+  }
+
+  @include respond(phones) {
+    padding-inline: 8rem;
+    font-size: 4.4rem;
+  }
 }
 
 .heading-secondary {
@@ -50,6 +64,10 @@ bold: 700
   @include respond(smaller-tablets) {
     font-size: 4.4rem;
   }
+
+  @include respond(mini-tablets) {
+    font-size: 3.6rem;
+  }
 }
 
 .heading-tertiary {
@@ -59,6 +77,10 @@ bold: 700
 
   @include respond(smaller-tablets) {
     font-size: 3.6rem;
+  }
+
+  @include respond(mini-tablets) {
+    font-size: 2.4rem;
   }
 }
 
@@ -81,6 +103,10 @@ bold: 700
 
   @include respond(smaller-tablets) {
     font-size: 1.8rem;
+  }
+
+  @include respond(mini-tablets) {
+    font-size: 1.6rem;
   }
 }
 
@@ -119,6 +145,15 @@ bold: 700
   padding: 1.2rem 2.4rem;
   border-radius: 3px;
   transition: all 0.4s;
+  font-size: 2rem;
+
+  @include respond(smaller-tablets) {
+    font-size: 1.8rem;
+  }
+
+  @include respond(mini-tablets) {
+    font-size: 1.6rem;
+  }
 }
 
 .btn--form:hover,

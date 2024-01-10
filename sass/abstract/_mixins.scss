@@ -33,4 +33,18 @@
       @content;
     }
   }
+
+  @if $breakpoint == mini-tablets {
+    // Below 756px
+    @media only screen and (max-width: 47em) {
+      @content;
+    }
+  }
+
+  @if $breakpoint == phones {
+    // Below 520px
+    @media only screen and (max-width: 33em) {
+      @content;
+    }
+  }
 }
