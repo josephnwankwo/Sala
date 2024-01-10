@@ -12,12 +12,11 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 8rem;
   }
 
   .box-text {
     color: $color-white;
-    font-size: 2.4rem;
+    font-size: 3rem;
     font-weight: 500;
   }
 
@@ -44,7 +43,7 @@
 
   .heading-featured-in {
     text-transform: uppercase;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     font-weight: 600;
     margin-bottom: 2.4rem;
     color: $colo-gray--1;
@@ -100,7 +99,7 @@
   .cta-btn:visited {
     text-decoration: none;
     color: inherit;
-    font-size: 1.2rem;
+    font-size: 1.8rem;
     transition: all 0.4s;
   }
 
@@ -133,7 +132,7 @@
   }
 
   .team-name {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     font-weight: 600;
   }
 }

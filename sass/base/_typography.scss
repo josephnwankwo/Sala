@@ -20,7 +20,7 @@ bold: 700
 
 .sub-heading {
   text-transform: uppercase;
-  font-size: 1.4rem;
+  font-size: 1.8rem;
   font-weight: 500;
   margin-bottom: 1.6rem;
   color: $colo-gray--2;
@@ -32,22 +32,30 @@ bold: 700
   font-weight: 500;
   margin-bottom: 4.8rem;
   padding-inline: 20rem;
+
+  // @include respond(tablets) {
+  //   font-size: 5.2rem;
+  // }
+
+  // @include respond(smaller-tablets) {
+  //   font-size: 4.4rem;
+  // }
 }
 
 .heading-secondary {
-  font-size: 4.4rem;
+  font-size: 5.2rem;
   font-weight: 600;
   margin-bottom: 4.8rem;
 }
 
 .heading-tertiary {
-  font-size: 3.6rem;
+  font-size: 4.4rem;
   font-weight: 600;
   margin-bottom: 1.6rem;
 }
 
 .paragraph {
-  font-size: 1.2rem;
+  font-size: 2rem;
   line-height: 1.4;
   font-weight: 400;
   color: $colo-gray--2;
@@ -57,7 +65,7 @@ bold: 700
 .btn:visited {
   text-decoration: none;
   display: inline-block;
-  font-size: 1.4rem;
+  font-size: 2rem;
   font-weight: 500;
   border-radius: 3px;
   transition: all 0.4s;
@@ -68,7 +76,7 @@ bold: 700
 .btn--outline:visited {
   color: inherit;
   border: 1px solid $colo-gray--3;
-  padding: 0.4rem 0.8rem;
+  padding: 1.2rem 2.4rem;
 }
 
 .btn--outline:hover,
@@ -82,7 +90,7 @@ bold: 700
 .btn--blue:visited {
   background-color: $color-blue;
   color: $color-white;
-  padding: 0.8rem 1.6rem;
+  padding: 1.2rem 2.4rem;
 }
 
 .btn--blue:hover,
@@ -96,7 +104,7 @@ bold: 700
   background-color: $color-blue;
   color: $color-white;
   border: none;
-  padding: 0.8rem 1.6rem;
+  padding: 1.2rem 2.4rem;
   border-radius: 3px;
   transition: all 0.4s;
 }
