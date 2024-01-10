@@ -34,7 +34,8 @@
     color: $colo-gray--2;
 
     @include respond(tablets) {
-      font-size: 1.4rem;
+      font-size: 1.2rem;
+      line-height: 1.2;
     }
   }
 
